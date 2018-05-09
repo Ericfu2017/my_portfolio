@@ -11,7 +11,7 @@
   .anchor {
     display: block;
     height: 200px;
-    margin-top: -150px;
+    margin-top: -168px;
     visibility: hidden;
   }
   
@@ -98,7 +98,7 @@
   .gallery {
     margin-top: 30px;
     flex: 50%; 
-    max-with: 50%;
+    max-width: 50%;
     padding: 0 16px;
     border: 1px solid #ccc;
   }
@@ -180,15 +180,15 @@
       justify-content: space-between;
     }
     #mycontact  .button {
-      margin 15px auto;
+      margin: 15px auto;
     }
     #mycontact {
-      flex-direction: column;
+      flex-direction: column ;
     }
     .gallery {
       flex: 100%;
     }
-  }
+}
   
   @media all and (max-width: 900px) {
      .navigation {
